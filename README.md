@@ -47,8 +47,10 @@ The Trip table stores all the information of a trip record booked by a passenger
 
   <h2>Architecture Diagram</h2>
   ![Blank diagram](https://user-images.githubusercontent.com/73065899/208236658-aafdb79b-35b8-43d6-a5d5-6ed2fdbf74f8.jpeg)
-
-
-
-
+  
+<h2>Instructions on how to use microservice </h2>
+ 1. Set Up Database: Using the Password: Lolman@4567, Connection: @tcp(127.0.0.1:3306), Name of Database: assg_db
+ 2. Run SQL Script to build the respective tables
+ 3. Download the 2 files (1 for the API) (1 for the admin console)
+ 4. Run API File first before proceeding to run the console file 
 
