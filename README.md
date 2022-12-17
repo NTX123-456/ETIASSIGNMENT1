@@ -53,4 +53,7 @@ The Trip table stores all the information of a trip record booked by a passenger
  2. Run SQL Script to build the respective tables
  3. Download the 2 files (1 for the API) (1 for the admin console)
  4. Run API File first before proceeding to run the console file 
+  
+  <h2> Things to take note </h2>
+  For the creation of bookings by the passenger, the same first name and last name must be used, E.g if the passenger's first name and last name is Jack Doe, the booking name should be Jack Doe as well. This is the same for drivers.
 
