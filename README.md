@@ -45,6 +45,9 @@ The Passenger Table stores the passenger's details and credentials. The list of 
 The Trip table stores all the information of a trip record booked by a passenger which is then accepted by a driver. The list of details are as follows: Refer to: 
 ![image](https://user-images.githubusercontent.com/73065899/208236383-67e8e70c-ba33-40df-bc4d-e6e099f51e37.png). Trip ID, which stores the ID of the trip record. PFirstName, which stores the first name of the passenger. PLastName, which stores the last name of the passenger, DFirstName, which stores the first name of the drive. DLastName, which stores the last name of the driver. DateOfTrip, which stores the date and time of the trip that is booked by the passenger. PickUpPostalCode, which stores the Pick Up Postal Code that the passenger has keyed in. DropOffPostalCode, which stores the drop off postal code that the passenger has keyed in and finally, the Rating which stores the passenger's rating for the particular trip. By Default, before the driver accepts the trip, the Driver's first name and last name is set to 'Awaiting Driver' until a driver accepts the trip which the trip microservice will then update the driver's first name and last name columns with the driver's first and last name respectively.
 
+  <h2>Architecture Diagram</h2>
+  ![Blank diagram](https://user-images.githubusercontent.com/73065899/208236658-aafdb79b-35b8-43d6-a5d5-6ed2fdbf74f8.jpeg)
+
 
 
 
