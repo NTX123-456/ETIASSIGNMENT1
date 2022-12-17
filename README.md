@@ -26,7 +26,9 @@ The trip microservice can be accessed from both the passenger and driver, micros
 
 <h4>REST APIS Used</h4>
 1. HTTP GET: To Retrieve and display information from the database, E.g displaying user's credentials when they log in, displaying trip history to passengers and drivers, displaying trip requests to the driver.
+  
 2. HTTP POST: To Post new Information entered by the user to the database. This is mainly used when the user creates a new account and enters in their credentials. E.g when a customer or driver creates a new account.
+  
 3. HTTP PUT: To Update any information in the database. E.g. When Users choose to update their profile credentials like their first name, last name or email addresses. To Update the driver's availability, update driver's names in a new trip request when they have accepted the trip.
 
 
